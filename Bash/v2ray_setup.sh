@@ -21,8 +21,8 @@ sudo apt install software-properties-common -y
 sudo apt install curl -y
 sudo apt-get install certbot -y
 echo "Start Install v2ray"
-#Install v2ray UI script
-bash <(curl -Ls https://raw.githubusercontent.com/mahxd/x-ui/main/install.sh)
+#Install v2ray UI script english version
+bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/main/install.sh)
 #Get SSL Certificate
 if [ -v "$email" ]; then
 	echo "Generate Cerbot"
